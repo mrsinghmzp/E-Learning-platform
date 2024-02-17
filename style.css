@@ -1,0 +1,62 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #327aa075;
+    color: #4c1c5a;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  nav {
+    background-color: #157bba;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #5b2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  #profile{
+    height: 20vh;
+    width: 20vw;
+    position: relative;
+   
+   
+  }
+  #profile>img{
+    height: 7vh;
+    width: 7vw;
+    
+    border-radius: 40%;
+   
+  }
